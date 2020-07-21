@@ -1,7 +1,7 @@
 #!/bin/sh
 
 dnf groupinstall development-libs development-tools gnome-software-development
-dnf install gtk3-devel gstreamer1-devel clutter-devel webkitgtk3-devel \
+dnf install gtk3-devel gstreamer1-devel clutter-devel webkit2gtk3-devel \
     libgda-devel gobject-introspection-devel
 dnf install vala vala-devel vala-tools vala-doc
 dnf install libchamplain-gtk-devel libgdl-devel libgudev1-devel \
